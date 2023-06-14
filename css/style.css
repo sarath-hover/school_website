@@ -103,6 +103,13 @@ nav {
     z-index: 11;
 }
 
+/* change navbar styles on scroll using javascript */
+
+.window-scroll {
+    background: var(--color-primery);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
 .nav__container {
     height: 100%;
     display: flex;
@@ -223,13 +230,23 @@ header {
 }
 
 
+/* ================ POPULAR COURSES =================  */
 
+.courses {
+    margin: 10rem;
+}
 
+.courses_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
 
-
-
-
-
+.course {
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+}
 
 
 
