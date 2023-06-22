@@ -107,7 +107,7 @@ nav {
   z-index: 11;
 }
 
-/* change navbar styles on scroll using javascript */
+/* change navbar styles on scroll using javascript now */
 
 .window-scroll {
   background: var(--color-primery);

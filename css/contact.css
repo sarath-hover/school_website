@@ -90,7 +90,7 @@ textarea {
   margin-top: 1rem;
 }
 
-/* ============ MEDIA QUERIES (TABLET) =============   */
+/* ============ MEDIA QUERIES (TABLET). =============   */
 
 @media screen and (max-width: 1024px) {
   .contact {
